@@ -116,7 +116,7 @@ for step in range(epochs):
 
 
 
-context = torch.tensor([[word2idx["india"]]], dtype=torch.long)
+context = torch.tensor([[word2idx["cricket"]]], dtype=torch.long)
 out = model.generate(context, max_new_tokens=15)
 
 print("\nGenerated text:\n")
